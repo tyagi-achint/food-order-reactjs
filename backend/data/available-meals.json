@@ -2,84 +2,84 @@
   {
     "id": "m1",
     "name": "Mac & Cheese",
-    "price": "8.99",
+    "price": "80.99",
     "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
     "image": "images/mac-and-cheese.jpg"
   },
   {
     "id": "m2",
     "name": "Margherita Pizza",
-    "price": "12.99",
+    "price": "120.99",
     "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
     "image": "images/margherita-pizza.jpg"
   },
   {
     "id": "m3",
     "name": "Caesar Salad",
-    "price": "7.99",
+    "price": "70.99",
     "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
     "image": "images/caesar-salad.jpg"
   },
   {
     "id": "m4",
     "name": "Spaghetti Carbonara",
-    "price": "10.99",
+    "price": "100.99",
     "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
     "image": "images/spaghetti-carbonara.jpg"
   },
   {
     "id": "m5",
     "name": "Veggie Burger",
-    "price": "9.99",
+    "price": "90.99",
     "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
     "image": "images/veggie-burger.jpg"
   },
   {
     "id": "m6",
     "name": "Vegan Buddha Bowl",
-    "price": "11.99",
+    "price": "110.99",
     "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
     "image": "images/vegan-buddha-bowl.jpg"
   },
   {
     "id": "m7",
     "name": "Pancake Stack",
-    "price": "8.99",
+    "price": "80.99",
     "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
     "image": "images/pancake-stack.jpg"
   },
   {
     "id": "m8",
     "name": "Chocolate Brownie",
-    "price": "5.99",
+    "price": "50.99",
     "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
     "image": "images/chocolate-brownie.jpg"
   },
   {
     "id": "m9",
     "name": "Mushroom Risotto",
-    "price": "13.99",
+    "price": "130.99",
     "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
     "image": "images/mushroom-risotto.jpg"
   },
   {
     "id": "m10",
     "name": "Eggplant Parmesan",
-    "price": "11.99",
+    "price": "110.99",
     "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
     "image": "images/eggplant-parmesan.jpg"
   },
   {
     "id": "m11",
     "name": "Lemon Cheesecake",
-    "price": "6.99",
+    "price": "60.99",
     "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
     "image": "images/lemon-cheesecake.jpg"
   },
   {
     "id": "m12",
     "name": "Falafel Wrap",
-    "price": "8.99",
+    "price": "80.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
   }

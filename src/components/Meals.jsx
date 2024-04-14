@@ -6,7 +6,7 @@ export default function Meals() {
   useEffect(() => {
     async function fetchMeals() {
       const response = await fetch(
-        "https://food-order-reactjs.onrender.com/meals"
+        "https://reactbite-backend.onrender.com/meals"
       );
 
       const meals = await response.json();
