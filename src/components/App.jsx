@@ -1,4 +1,4 @@
-import { CartContextProvider } from "./CartContext";
+import { CartContextProvider } from "../util/CartContext";
 import Header from "./Header";
 import Meals from "./Meals";
 
