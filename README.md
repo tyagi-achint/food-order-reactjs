@@ -1,6 +1,6 @@
 # React Bite
 
-Welcome to our Food Ordering Web App! This project is built using React.js and allows users to browse a selection of food items, add them to a cart, edit the cart contents, and proceed to checkout.
+Welcome to Food Ordering Web App! This project is built using React.js and allows users to browse a selection of food items, add them to a cart, edit the cart contents, and proceed to checkout.
 
 ## Features
 
