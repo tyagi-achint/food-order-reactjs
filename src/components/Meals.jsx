@@ -1,20 +1,27 @@
-import { useEffect, useState } from "react";
 import MealItem from "./MealItem";
+import useHttp from "./hooks/useHttp";
+import Error from "../util/Error";
+
+const requestConfig = {};
 
 export default function Meals() {
-  const [loadedMeals, setLoadedMeals] = useState([]);
-  useEffect(() => {
-    async function fetchMeals() {
-      const response = await fetch(
-        "https://reactbite-backend.onrender.com/meals"
-      );
+  const {
+    data: loadedMeals,
+    isLoading,
+    error,
+  } = useHttp(
+    "https://reactbite-backend.onrender.com/meals",
+    requestConfig,
+    []
+  );
 
-      const meals = await response.json();
-      setLoadedMeals(meals);
-    }
+  if (isLoading) {
+    return <p style={{ textAlign: "center" }}>Meals are loading...</p>;
+  }
 
-    fetchMeals();
-  }, []);
+  if (error) {
+    return <Error title="Failed to Fetch Meals" message={error} />;
+  }
 
   return (
     <ul id="meals">
