@@ -3,7 +3,7 @@ import { createContext, useReducer } from "react";
 const CartContext = createContext({
   items: [],
   addItem: (item) => {},
-  removeItems: (id) => {},
+  removeItem: (id) => {},
 });
 
 function cartReducer(state, action) {
@@ -29,14 +29,14 @@ function cartReducer(state, action) {
   }
   if (action.type === "REMOVE_ITEM") {
     const existingCartItemIndex = state.items.findIndex(
-      (item) => item.id === action.item.id
+      (item) => item.id === action.id
     );
 
-    const existingCartItem = state.iteam[existingCartItemIndex];
+    const existingCartItem = state.items[existingCartItemIndex];
 
     const updatedItems = [...state.items];
 
-    if (existingCartItem === 1) {
+    if (existingCartItem.quantity === 1) {
       updatedItems.splice(existingCartItemIndex, 1);
     } else {
       const updatedItem = {
@@ -45,7 +45,7 @@ function cartReducer(state, action) {
       };
       updatedItems[existingCartItemIndex] = updatedItem;
     }
-    return { ...state,items: updatedItems };
+    return { ...state, items: updatedItems };
   }
 
   return state;
